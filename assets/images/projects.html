@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Explore the portfolio of Destiny Isiguzo, a skilled frontend developer. Learn about his experience in web development, his background, and get in touch for potential collaborations." 
+		/>
+
+		<!-- FAVICONS -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="src/images/apple-touch-icon.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="src/images/favicon-32x32.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="src/images/favicon-16x16.png" />
+		<link rel="manifest" href="src/images/site.webmanifest" />
+		<!-- FAVICONS -->
+
+		<!-- ICONS -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<!-- ICONS -->
+
+      <link rel="stylesheet" href="style-components/resets.css">
+      <!-- <link rel="stylesheet" href="style-components/loader.css"> -->
+      <link rel="stylesheet" href="style-components/keyframes-animation.css">
+      <link rel="stylesheet" href="style-components/header.css">
+      <link rel="stylesheet" href="style-components/works.css">
+		<link rel="stylesheet" href="style-components/projects.css">
+      <link rel="stylesheet" href="style-components/footer.css">
+      <link rel="stylesheet" href="style-components/style.css">
+
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<script src="src/main.js" defer></script>
+		
+		<title>Projects &#8212; Destiny Isiguzo &#8901; FrontEnd Developer</title>
+	</head>
+	<body>
+		<div class="loader-wrapper" id="loader-wrapper">
+			<div class="loader" id="loader"></div>
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+		</div>
+		<!-- END OF LOADING ANIMATION -->
+		 
+		<header>
+			<nav class="desktop-nav-container" role="navigation">
+				<div class="desktop-nav-container-left" role="menu">
+					<a href="index.html" class="logo-container" aria-labelledby="Logo" title="Logo">
+						<h1 class="desktop-logo">
+							D.
+						</h1>
+					</a>
+
+					<div class="desktop-nav-menu-container" role="menu">
+                  <a href="about.html" class="desktop-nav-menu-link desktop-nav-menu-link2" id="desktop-nav-menu-btn" role="menuitem">
+							About
+                  </a>
+
+                  <a href="projects.html" class="desktop-nav-menu-link desktop-nav-menu-link3" id="desktop-nav-menu-btn" role="menuitem">
+							Projects
+                  </a>
+
+                  <a href="tech-stack.html" class="desktop-nav-menu-link desktop-nav-menu-link4" id="desktop-nav-menu-btn" role="menuitem">
+							Tech Stack
+                  </a>
+
+                  <a href="contact.html" class="desktop-nav-menu-link desktop-nav-menu-link5" id="desktop-nav-menu-btn" role="menuitem">
+							Contact
+                  </a>
+					</div>
+				</div>
+            <div class="desktop-nav-container-right">
+               <a href="https://www.linkedin.com/in/destiny-isiguzo" target="_blank" title="Linkedin profile">
+						<i class="fa-brands fa-linkedin" aria-labelledby="Linkedin icon"></i>
+					</a>
+               <a href="https://www.instagram.com/_destiny.i_/" target="_blank" title="Instagram profile">
+						<i class="fa-brands fa-instagram" aria-labelledby="Instagram icon"></i>
+					</a>
+               <a href="https://github.com/Destiny-Isiguzo" target="_blank" title="GitHub profile">
+						<i class="fa-brands fa-github" aria-labelledby="GitHub icon"></i>
+					</a>
+               <div class="desktop-nav-divider"></div>
+               <span 
+				      class="material-symbols-outlined theme-toggle-btn" 
+						id="theme-toggle-btn"
+						title="Theme toggle"
+						aria-labelledby="Theme toggle">
+				      dark_mode
+			      </span>
+            </div>
+			</nav>
+			<!-- END OF DESKTOP NAV -->
+
+			<nav class="mobile-nav-container" role="navigation">
+				<a href="index.html" aria-labelledby="Logo" title="Logo">
+					<h1 class="mobile-logo">
+						D.
+					</h1>
+				</a>
+
+				<div class="mobile-nav-menu-container" role="menu">
+					<a href="index.html" class="mobile-nav-menu-link" id="mobile-nav-menu-link" role="menuitem">
+						<i class="fa-solid fa-house" aria-labelledby="Home Link"></i>
+						<p>Home</p>
+					</a>
+
+					<a href="about.html" class="mobile-nav-menu-link" id="mobile-nav-menu-link" role="menuitem">
+						<i class="fa-solid fa-user" aria-labelledby="About Link"></i>
+						<p>About</p>
+					</a>
+
+					<a href="projects.html" class="mobile-nav-menu-link" id="mobile-nav-menu-link" role="menuitem">
+						<i class="fa-solid fa-briefcase" aria-labelledby="Projects Link"></i>
+						<p>Projects</p>
+					</a>
+
+					<a href="contact.html" class="mobile-nav-menu-link" id="mobile-nav-menu-link" role="menuitem">
+						<i class="fa-solid fa-envelope" aria-labelledby="Contact Link"></i>
+						<p>Contact</p>
+					</a>
+
+					<div class="mobile-theme-toggle-btn-container">
+						<span 
+							class="material-symbols-outlined mobile-theme-toggle-btn" 
+							id="mobile-theme-toggle-btn"
+							aria-labelledby="theme toggle">
+							dark_mode
+						</span>
+						<p>Theme</p>
+					</div>
+				</div>
+			</nav>
+			<!-- END OF MOBILE NAV -->
+		</header>
+		<!-- END OF HEADER -->
+
+		<main>
+			<section class="works-section">
+				<div class="projects-heading-container">
+					<h2 class="projects-title">Projects</h2>
+					<p class="projects-desc">Some projects and ideas i've worked on</p>
+				</div>
+				<div class="works-container">
+					<div class="works-content works-content1">
+						<div class="works-content-text-container works-content-text-container1">
+							<div>
+								<div class="works-logo1">
+									<p>PI</p>
+								</div>
+								<h5 class="works-content-text-subtitle">Protega - An insurance provider</h5>
+								<p class="works-content-text-desc">
+									Protega Insurance offers various insurance products to ensure financial stability for individuals and businesses.
+								</p>
+							</div>
+							<div class="works-content-text-container-btns">
+								<a href="https://protega-insurance.org/" target="_blank" 
+									class="works-content-text-container-btn works-content-text-container-btn1"
+									title="External link">
+									Live demo
+									<i class="fa-solid fa-arrow-up-right-from-square" aria-labelledby="External link icon"></i>
+								</a>
+
+								<a href="https://github.com/Destiny-Isiguzo/Protega-Insurance" target="_blank"
+									class="works-content-text-container-btn works-content-text-container-btn2"
+									title="Source code link">
+									Source code
+									<i class="fa-brands fa-github" aria-labelledby="Source code icon"></i>
+								</a>
+							</div>
+						</div>
+						<img src="src/images/work-image1.png" alt="Work Image" class="works-content-image1" />
+					</div>
+
+					<div class="works-content works-content2">
+						<div class="works-content-text-container works-content-text-container2">
+							<div>
+								<div class="works-logo2">
+									<p>GF</p>
+								</div>
+								<h5 class="works-content-text-subtitle">GuardForte - Comprehensive cybersecurity solution</h5>
+								<p class="works-content-text-desc">
+									GuardForte is a cybersecurity product dedicated to protecting digital worlds with robust software and hardware. With cutting-edge solutions against hacking, and malware.
+								</p>
+							</div>
+							<div class="works-content-text-container-btns">
+								<a href="https://guardforte.co/" target="_blank" 
+									class="works-content-text-container-btn works-content-text-container-btn1"
+									title="External link">
+									Live demo
+									<i class="fa-solid fa-arrow-up-right-from-square" aria-labelledby="External link icon"></i>
+								</a>
+
+								<a href="https://github.com/Destiny-Isiguzo/Guarforte" target="_blank"
+									class="works-content-text-container-btn works-content-text-container-btn2"
+									title="Source code link">
+									Source code
+									<i class="fa-brands fa-github" aria-labelledby="Source code icon"></i>
+								</a>
+							</div>
+						</div>
+						<img src="src/images/work-image2.png" alt="Project Image" class="works-content-image2" />
+					</div>
+
+					<div class="works-content works-content3">
+						<div class="works-content-text-container works-content-text-container3">
+							<div>
+								<div class="works-logo3">
+									<p>UF</p>
+								</div>
+								<h5 class="works-content-text-subtitle">Unity Finance -  Empowering Financial Dreams</h5>
+								<p class="works-content-text-desc">
+									Unity Finance is a comprehensive banking solution that empowers individuals and businesses to achieve their financial goals. 
+								</p>
+							</div>
+							<div class="works-content-text-container-btns">
+								<a href="https://unityfinance.pages.dev/" target="_blank" 
+									class="works-content-text-container-btn works-content-text-container-btn1"
+									title="External link">
+									Live demo
+									<i class="fa-solid fa-arrow-up-right-from-square" aria-labelledby="External link icon"></i>
+								</a>
+
+								<a href="https://github.com/Destiny-Isiguzo/Unity-Finance" target="_blank"
+									class="works-content-text-container-btn works-content-text-container-btn2"
+									title="Source code link">
+									Source code
+									<i class="fa-brands fa-github" aria-labelledby="Source code icon"></i>
+								</a>
+							</div>
+						</div>
+						<img src="src/images/work-image3.png" alt="Project Image" class="works-content-image3" />
+						<!-- <link rel="preload" as="image" href="src/images/work-image3.png" class="works-content-image3" /> -->
+					</div>
+				</div>
+			</section>
+			<!-- END OF WORKS SECTION -->
+		</main>
+		<!-- END OF MAIN -->
+
+
+		<footer>
+			<p>&#169; <span id="year"></span> Destiny Isiguzo</p>
+			<div class="footer-social-links-container" role="menu">
+				<a href="mailto:markdestiny673@gmail.com" target="_blank" class="footer-social-link" role="menuitem" title="Email">
+					Email
+				</a>
+				<a href="https://www.linkedin.com/in/destiny-isiguzo" target="_blank" class="footer-social-link" role="menuitem" title="LinkedIn profile">
+					LinkedIn
+				</a>
+				<a href="https://github.com/Destiny-Isiguzo" target="_blank" class="footer-social-link" role="menuitem" title="GitHub profile">
+					Github
+				</a>
+				<a href="https://t.me/D_ni_si" target="_blank" class="footer-social-link" role="menuitem" title="Telegram profile">
+					Telegram
+				</a>
+			</div>
+			<a href="https://github.com/Destiny-Isiguzo/Variable-Name-Validator" target="_blank" class="recent-update-link" title="My GitHub profile">
+				see the recent update on GitHub
+				<i class="fa-solid fa-arrow-up-right-from-square" aria-labelledby="External link icon"></i>
+			</a>
+		</footer>
+		<!-- END OF FOOTER -->
+	<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "024e97f8fb624a2fa72334fc6e8979fb"}'></script><!-- Cloudflare Pages Analytics --></body>
+</html>

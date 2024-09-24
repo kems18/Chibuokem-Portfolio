@@ -1,0 +1,23 @@
+.projects-heading-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: clamp(2rem, 1.4718rem + 2.2535vw, 3.5rem);
+    margin-top: clamp(5rem, 3.7676rem + 5.2582vw, 8.5rem);
+ }
+ 
+ .projects-title {
+    color: var(--main-section-title-color);
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-h2);
+    opacity: 0;
+    animation: bounce .55s ease-in-out 500ms forwards;
+    -webkit-animation: bounce .55s ease-in-out 500ms forwards;
+ }
+ 
+ .projects-desc {
+    font-size: var(--font-size-text);
+    opacity: 0;
+    animation: bounce .55s ease-in-out 620ms forwards;
+    -webkit-animation: bounce .55s ease-in-out 620ms forwards;
+ }

@@ -1,0 +1,90 @@
+.tech-stack-section {
+    margin-top: clamp(5rem, 3.7676rem + 5.2582vw, 8.5rem);
+    margin-bottom: clamp(5.5rem, 4.9718rem + 2.2535vw, 7rem);
+ }
+ 
+ .tech-stack-heading-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: clamp(3rem, 1.9437rem + 4.5070vw, 6rem);
+ }
+ 
+ .tech-stack-title {
+    color: var(--main-section-title-color);
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-h2);
+    opacity: 0;
+    animation: bounce .55s ease-in-out 500ms forwards;
+    -webkit-animation: bounce .55s ease-in-out 500ms forwards;
+ }
+ 
+ .tech-stack-desc {
+    font-size: var(--font-size-text);
+    opacity: 0;
+    animation: bounce .55s ease-in-out 620ms forwards;
+    -webkit-animation: bounce .55s ease-in-out 620ms forwards;
+ }
+ 
+ .tech-stack-content-body {
+    display: grid;
+    gap: clamp(2.5rem, 1.6197rem + 3.7559vw, 5rem);
+ }
+ 
+ .tech-stack-content-top,
+ .tech-stack-content-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, 0.6479rem + 1.5023vw, 2rem);
+ }
+ 
+ .tech-stack-content-heading {
+    color: var(--main-section-subtitle-color);
+    font-size: var(--font-size-h5);
+    font-family: var(--font-family-heading);
+ }
+ 
+ .tech-stack-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: clamp(0.85rem, 0.8148rem + 0.1502vw, 0.95rem);
+ }
+ 
+ .tech-stack-content-container {
+    background-color: var(--works-card-bg-color);
+    border: .59px solid var(--works-border-color);
+    border-radius: clamp(0.65rem, 0.5268rem + 0.5258vw, 1rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: clamp(0.81rem, 0.7783rem + 0.1352vw, 0.9rem);
+    height: clamp(5.3rem, 4.9479rem + 1.5023vw, 6.3rem);
+ }
+ 
+ .tech-stack-content-image-text-container {
+    display: flex;
+    align-items: center;
+    gap: .85rem;
+ }
+ 
+ .tech-stack-content-image {
+    border-radius: .85rem;
+    width: clamp(3rem, 2.8239rem + 0.7512vw, 3.5rem);
+    object-fit: cover;
+ }
+ 
+ .tech-stack-content-text-subtitle {
+    color: var(--main-section-subtitle-color);
+    font-size: var(--font-size-tech-stack-subtitle);
+ }
+ 
+ .tech-stack-content-text-tag-container {
+    background-color: var(--tech-stack-content-tag-bg-color);
+    border: .59px solid var(--works-border-color);
+    border-radius: 1.625rem;
+    padding: .36rem .72rem;
+ }
+ 
+ .tech-stack-content-tag-text {
+    font-size: var(--font-size-tech-stack-tag);
+ }

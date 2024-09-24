@@ -1,0 +1,87 @@
+.get-to-know-me-section {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 0.4718rem + 2.2535vw, 2.5rem);
+  margin-bottom: clamp(5.5rem, 4.9718rem + 2.2535vw, 7rem);
+}
+
+.get-to-know-me-heading {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 0.8239rem + 0.7512vw, 1.5rem);
+}
+
+.get-to-know-me-title {
+  color: var(--main-section-title-color);
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-h4);
+}
+
+.get-to-know-me-title-divider {
+  background-color: var(--header-border-color);
+  width: clamp(3rem, -1.2254rem + 18.0282vw, 15rem);
+  height: 0.5px;
+}
+
+.get-to-know-me-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: clamp(1rem, 0.912rem + 0.3756vw, 1.25rem);
+}
+
+.get-to-know-me-content {
+  background-color: var(--works-card-bg-color);
+  border: 0.59px solid var(--works-border-color);
+  border-radius: clamp(0.65rem, 0.5268rem + 0.5258vw, 1rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-block-start: clamp(1.25rem, 0.7042rem + 2.3286vw, 2.8rem);
+  height: clamp(21.5rem, 18.507rem + 12.77vw, 30rem);
+  overflow: hidden;
+}
+
+.get-to-know-me-content img {
+  transition: var(--global-transition);
+}
+
+.get-to-know-me-content1 {
+  padding-block-end: clamp(1.25rem, 0.7394rem + 2.1784vw, 2.7rem);
+}
+
+.get-to-know-me-content1:is(:hover, :active) .get-to-know-me-content-image1 {
+  transform: rotate(-3deg) scale(1.1);
+}
+
+.get-to-know-me-content2:is(:hover, :active) .get-to-know-me-content-image2,
+.get-to-know-me-content3:is(:hover, :active) .get-to-know-me-content-image3,
+.get-to-know-me-content4:is(:hover, :active) .get-to-know-me-content-image4 {
+  transform: scale(1.1);
+}
+
+.get-to-know-me-content div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-to-know-me-subtitle {
+  color: var(--main-section-subtitle-color);
+  font-size: var(--font-size-h5);
+  font-family: var(--font-family-heading);
+  margin-bottom: 0.35rem;
+}
+
+.get-to-know-me-desc {
+  color: #8891b0;
+  font-size: var(--font-size-text);
+  text-align: center;
+}
+
+.get-to-know-me-content-image1 {
+  height: clamp(13.5rem, 12.4655rem + 4.4139vw, 16.438rem);
+  width: clamp(12rem, 11.3176rem + 2.9115vw, 13.938rem);
+  object-fit: cover;
+  transform: rotate(2.7deg);
+}

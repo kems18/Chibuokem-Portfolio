@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Nanum+Pen+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+:root {
+	/* COLORS */
+	--color-main-bg: #fbfbfb; 
+	--color-faint-white: #f3f3f3; 
+	--color-card-border: #ebebeb; 
+	--color-card-bg: #f6f6f6;
+	--color-black-10percent: rgb(21, 21, 21, .1);
+
+
+	--color-basic-black: #0d0d0d;
+	--color-basic-white: #ffffff;
+	--color-basic-onyx: #181818;
+	--color-basic-dark-gray: #808080;
+	--color-basic-medium-gray: rgba(128, 128, 128, .5);
+	--color-basic-light-gray: #c5c5c5;
+	--color-basic-light-blue: rgba(63, 100, 234, 0.43);
+	--color-basic-light-red: rgba(233, 63, 64, 0.431);
+	--color-basic-light-yellow: rgba(255, 184, 0, .43);
+
+	--color-dark-gradient: linear-gradient(to bottom, #1a1a1a, #131313);
+	--works-logo-gradient: linear-gradient(to bottom, #383838, #1a1a1a);
+
+	--hero-name-color-gradient: linear-gradient(to right,  var(--color-basic-light-red), var(--color-basic-light-yellow));
+	--background-clr: linear-gradient(225deg, #1a1a1a,#131313);
+
+	/* LIGHT THEME */
+	--background-color: var(--color-main-bg);
+	--hero-name-color: var(--color-basic-onyx);
+	--hero-top-text-color: #4b5868;
+	--hero-btn2-color: #4b5868;
+	--hero-btn2-bg-color: var(--color-faint-white);
+	--hero-btn-color: #393c41;
+	--main-section-title-color: #393c41;
+	--main-section-subtitle-color: #4b5868;
+	--works-card-bg-color: var(--color-card-bg);
+	--works-border-color: var(--color-card-border);
+	--nav-link-color: #717278;
+	--nav-link-hover-color: var(--color-basic-black);
+	--nav-social-icon-color: #5b5b5b;
+	--nav-social-icon-hover-color: var(--color-basic-black);
+	--nav-divider-color: #c3c1b8;
+	--desktop-nav-menu-btn-num-color: var(--color-basic-onyx);
+	--sticky-header-background-color: rgba(255, 255, 255, .5);
+	--header-border-color: #d2d3d6;
+	--header-nav-link-background-color: #e5e5e5;
+	--header-active-box-shadow: 0 0 25px 3px rgba(0 0 0 / .07);
+	--mobile-nav-theme-container-bg-color: #ededed;
+	--logo-color: var(--color-basic-light-red);
+	--btn-hover-color: rgba(0 0 0 / .39);
+	--profile-bg-color: var(--color-basic-onyx);
+	--tech-stack-content-tag-bg-color: var(--color-main-bg);
+	--input-placeholder-color: rgba(65, 65, 65, .45);
+	--textarea-bg-color: var(--color-faint-white);
+
+	
+
+
+	/* FONTS */
+	--font-family-primary: 'Poppins', sans-serif;
+	--font-family-heading: 'Fraunces', serif;
+	--font-family-alt: 'Great Vibes', cursive;
+	--font-family-header-num: 'Fira Code', monospace;
+	--font-family-nav-menu: 'Roboto Mono', monospace;
+
+	--font-size-14: .875rem;
+	--font-size-15: .938rem;
+	--font-size-15-5: .969rem;
+	--font-size-17: 1.063rem;
+	--font-size-20: 1.25rem;
+	--font-size-h1: clamp(2.85rem, 2.1458rem + 3.0047vw, 4.85rem);
+	--font-size-h2: clamp(2rem, 1.3838rem + 2.6291vw, 3.75rem);
+	--font-size-h3: clamp(1.6rem, 1.2831rem + 1.3521vw, 2.5rem);
+	--font-size-h4: clamp(1.55rem, 1.2859rem + 1.1268vw, 2.3rem);
+	--font-size-h5: clamp(1.25rem, 1.1268rem + 0.5258vw, 1.6rem);
+	--font-size-hero-subtitle: clamp(0.969rem, 0.9229rem + 0.1968vw, 1.1rem);
+	--font-size-btn: clamp(0.938rem, 0.9162rem + 0.0931vw, 1rem);
+	--font-size-text: clamp(0.938rem, 0.9162rem + 0.0931vw, 1rem);
+	--font-size-hero-intro-text: clamp(2.55rem, 1.8106rem + 3.1549vw, 4.65rem);
+	--font-size-tech-stack-subtitle: 1rem;
+	--font-size-tech-stack-tag: clamp(0.688rem, 0.6838rem + 0.0180vw, 0.7rem);
+
+
+
+
+	/* SPACING */
+	--spacing-btn-padding: clamp(0.75rem, 0.6972rem + 0.2254vw, 0.9rem);
+	--spacing-works-content-btn-padding: clamp(0.57rem, 0.4538rem + 0.4958vw, 0.9rem) clamp(1rem, 0.8415rem + 0.6761vw, 1.45rem);
+	--spacing-btn-radius: .563rem;
+	--spacing-btn-gap: .55rem;
+   --spacing-global-margin-inline: clamp(0.8rem, -4.7282rem + 23.5869vw, 16.5rem);
+
+
+	--global-transition: all .4s ease;
+}
+
+
+/* DARK THEME UTILITY CLASS */
+.dark-theme {
+	--background-color: var(--color-basic-black);
+	--hero-name-color: var(--color-card-border);   /* #cbd5e1, #ccd7f7 */
+	--hero-top-text-color: #95a3b7;
+	--hero-btn2-color: #94a3b8;
+	--hero-btn2-bg-color: var(--color-basic-onyx);
+	--hero-btn-color: #cbd5e1;
+	--main-section-title-color: var(--color-card-border);
+	--main-section-subtitle-color: #c6d1f0;
+	--works-card-bg-color: var(--color-basic-onyx);
+	--works-border-color: #383737;
+	--nav-link-color: #c2c2c9;
+	--nav-link-hover-color: var(--color-basic-white);
+	--nav-social-icon-color: #c0bcb9;
+	--nav-social-icon-hover-color: var(--color-basic-white);
+	--nav-divider-color: #55524b;
+	--desktop-nav-menu-btn-num-color: var(--color-basic-white);
+	--sticky-header-background-color: rgba(24, 24, 29, .35);
+	--header-border-color: #393c41;
+	--header-nav-link-background-color: #272a30;
+	--header-active-box-shadow: 0 3px 25px 0 rgba(0 0 0 / .4);
+	--mobile-nav-theme-container-bg-color: #202126;
+	--logo-color: var(--color-basic-light-yellow);
+	--btn-hover-color: rgba(255 255 255 / .39);
+	--profile-bg-color: var(--color-card-border);
+	--tech-stack-content-tag-bg-color: var(--color-basic-black);
+	--input-placeholder-color: rgba(234, 234, 234, .45);
+	--textarea-bg-color: var(--color-basic-black);
+}
+
+
+body {
+	background-color: var(--background-color);
+	color: #8891b0;
+	font-family: var(--font-family-primary);
+	transition: background-color .4s ease, color .4s ease;
+}
+
+main {
+	margin-inline: var(--spacing-global-margin-inline);
+	opacity: 0;
+	transition: var(--global-transition);
+}
+
+header {
+	opacity: 0;
+	transition: var(--global-transition);
+}
+
+::-webkit-scrollbar {
+	background-color: var(--color-basic-light-gray);
+	border-radius: .2rem;
+	width: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-basic-dark-gray);
+	border-radius: .2rem;
+}

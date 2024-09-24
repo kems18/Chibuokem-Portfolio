@@ -1,0 +1,41 @@
+.bookshelf-section {
+    margin-top: clamp(5rem, 3.7676rem + 5.2582vw, 8.5rem);
+    margin-bottom: clamp(5.5rem, 4.9718rem + 2.2535vw, 7rem);
+ }
+ 
+ .bookshelf-heading-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: clamp(3rem, 1.9437rem + 4.5070vw, 6rem);
+ }
+ 
+ .bookshelf-title {
+    color: var(--main-section-title-color);
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-h2);
+    opacity: 0;
+    animation: bounce .55s ease-in-out 500ms forwards;
+    -webkit-animation: bounce .55s ease-in-out 500ms forwards;
+ }
+ 
+ .bookshelf-desc {
+    font-size: var(--font-size-text);
+    opacity: 0;
+    animation: bounce .55s ease-in-out 620ms forwards;
+    -webkit-animation: bounce .55s ease-in-out 620ms forwards;
+ }
+ 
+ .bookshelf-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(1rem, 0.4718rem + 2.2535vw, 2.5rem);
+ }
+ 
+ .bookshelf-content-image {
+    border-radius: .35rem;
+    width: 13.438rem;
+    height: 20rem;
+    object-fit: cover;
+ }
